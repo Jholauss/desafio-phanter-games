@@ -1,0 +1,58 @@
+* {
+    font-family: 'Dongle', sans-serif;
+}
+/* ESTILO BODY */
+body{
+    background-color: #000000;
+}
+/* nav bar */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #815aec6e;
+}
+.dropdown-item{
+    font-size: 25px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #815aec6e;
+}
+
+/* FOOTER */
+.footer-titulo{
+    font-size: 20px;
+}
+.img-index:hover{
+    opacity: .5;
+    transition: .8s;
+}
+/* formulario */
+.registro{
+    font-size: 20px;
+    color: white;
+}
+.btn-dark{
+    margin: 20px;
+}
+.bg{
+    background-image: url(../img/producto-index8.jpg);
+    background-position: center ;
+}
+/* cards-pc*/
+.card-header{
+    font-size: 26px;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-text{
+    font-size: 23px;
+}
+.img-card:hover{
+    cursor: pointer;
+    opacity:.3;
+    transition: 1s;
+}
